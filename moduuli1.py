@@ -1,34 +1,34 @@
-# 1. tehtävä
-userName = input('Kirjoita nimesi: ')
-print('Hei, ' + userName + '!')
-
-# 2. tehtävä
-import math
-
-säde_str = input('Kirjoita ympyrän säde (metri): ')
-säde = int(säde_str)
-ympyränA = säde**2 * math.pi
-print('Ympyrän pinta-ala on ', round(ympyränA), 'metriä')
-
-# 3. tehtävä
-kanta = int(input("Anna suorakulmion kannan pituus : "))
-korkeus = int(input("Anna suorakulmion korkeus : "))
-
-piiri = kanta * 2 + korkeus * 2
-pintaAla = kanta * korkeus
-
-print('Suorakulmion piiri on ', piiri, 'ja pinta-ala on', pintaAla)
-
-# 4. tehtävä
-a = int(input('Kirjoita ensimmäinen luku: '))
-b = int(input('Kirjoita toinen luku: '))
-c = int(input('Kirjoita kolmas luku: '))
-
-summa = a + b + c
-tulo = a * b * c
-keskiarvo = (a + b + c) / 3
-
-print('Lukujen summa on', summa, '\nLukujen tulo on', tulo, '\nLukujen keskiarvo on', int(keskiarvo))
+# # 1. tehtävä
+# userName = input('Kirjoita nimesi: ')
+# print('Hei, ' + userName + '!')
+#
+# # 2. tehtävä
+# import math
+#
+# säde_str = input('Kirjoita ympyrän säde (metri): ')
+# säde = int(säde_str)
+# ympyränA = säde**2 * math.pi
+# print('Ympyrän pinta-ala on ', round(ympyränA), 'metriä')
+#
+# # 3. tehtävä
+# kanta = int(input("Anna suorakulmion kannan pituus : "))
+# korkeus = int(input("Anna suorakulmion korkeus : "))
+#
+# piiri = kanta * 2 + korkeus * 2
+# pintaAla = kanta * korkeus
+#
+# print('Suorakulmion piiri on ', piiri, 'ja pinta-ala on', pintaAla)
+#
+# # 4. tehtävä
+# a = int(input('Kirjoita ensimmäinen luku: '))
+# b = int(input('Kirjoita toinen luku: '))
+# c = int(input('Kirjoita kolmas luku: '))
+#
+# summa = a + b + c
+# tulo = a * b * c
+# keskiarvo = (a + b + c) / 3
+#
+# print('Lukujen summa on', summa, '\nLukujen tulo on', tulo, '\nLukujen keskiarvo on', int(keskiarvo))
 
 # 5. tehtävä
 leiviskät_str = input('Anna leiviskät: ')

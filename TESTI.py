@@ -21,3 +21,10 @@ print(f"{'Neperin luku':12s}:{math.e:10.5f}")
 #     paino = float(input("Anna paino (kg): "))
 # if (ikä>=18 or ikä>=15 and paino>=55):
 #     print("Lääkkeen käyttö on sallittua.")
+
+
+kerrat = int(input("Montako kertaa tervehditään: "))
+tehdyt = 0
+while tehdyt<kerrat:
+    print("Hyvää huomenta")
+    tehdyt = tehdyt + 1
