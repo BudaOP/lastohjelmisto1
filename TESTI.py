@@ -35,3 +35,14 @@
 #         komento = input("Anna komento: ")
 #     print("Toiminnot lopetettu.")
 #
+
+# nimet = []
+#
+# etunimi = input("Anna ensimmäinen nimi tai lopeta painamalla Enter: ")
+# while etunimi != "":
+#     nimet.append(etunimi)
+#     etunimi = input("Anna seuraava nimi tai lopeta painamalla Enter: ")
+#
+# for nimi in nimet:
+#     print (f"Moi, {nimi}!")
+
