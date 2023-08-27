@@ -7,7 +7,6 @@
 #     tulos = lukuCalc == int(lukuCalc)
 #     if tulos:
 #         print(luku)
-import random
 
 # 2. tehtävä
 # tuuma = float(input('Montako tuumaa: '))
