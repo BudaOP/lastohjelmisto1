@@ -1,5 +1,8 @@
 import random, time
 
+# Tein koodin joka heittää joka sekunti uudelleen noppaa niin kauan
+# ,kunnes se saa luvuksi kyseisen nopan suurin luku
+
 def randomluku(x):
     n = random.randint(1,x)
     print(f'{p}. nopan heiton luku on {n}')

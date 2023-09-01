@@ -1,5 +1,9 @@
 import random, time
 
+# Koodi joka heittää noppaa niin kauan kunnes se saa luvuksi 6
+
+print('Aloitetaan nopan heitto')
+
 def randomluku():
     n = random.randint(1,6)
     print(f'{p}. nopan heiton luku on {n}')
