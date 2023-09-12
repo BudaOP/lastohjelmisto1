@@ -1,3 +1,6 @@
+# Tein hieman enemmän. Tässä ohjelmassa voi myös tarkastella listaa ja poistaa lentoasemia halutessaan.
+# Lisäksi lentoaseman lisätessä ja poistettaessa, toiminto voi peruuttaa.
+
 syotto = input('1. lisäys 2. haku 3. lopeta 4. katso lista 5. poista\nValitse toiminto: ')
 
 lentoasemat = {}
@@ -22,7 +25,10 @@ while syotto != 'lopeta':
         else:
             print('\n---\nSellaista lentoasemaa ei löytynyt\n---\n')
     if syotto == 'katso lista':
-        print(lentoasemat)
+        print('lentoasemien lista:')
+        for i in lentoasemat:
+            print(f'{i.upper()} : {lentoasemat[i]}')
+        print('')
     u = 0
     if syotto == 'poista':
         print('\nLentoasemien lista:')
